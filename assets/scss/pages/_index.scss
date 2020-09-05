@@ -1,0 +1,45 @@
+.title-text-span{
+    font-size: 35px;
+    font-weight: 400;
+    @media screen and (max-width: $notebook){
+        font-size: 25px;
+    }
+}
+
+.btn-index-bordered{
+    width: 214px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px 0;
+    @media screen and (max-width: $notebook){
+        font-size: 15px;
+        width: 165px;
+        padding: 8px 0;
+    }
+}
+.btn-index{
+    width: 442px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px 0;
+    color: $white;
+    margin-top: 12px;
+    @media screen and (max-width: $notebook){
+        font-size: 15px;
+        width: 345px;
+        padding: 8px 0;
+    }
+}
+
+.img-title{
+    @media screen and (max-width: $notebook){
+        width: 30%;
+    }
+}
+
+.button-group{
+    margin-top: 60px;
+    @media screen and (max-width: $notebook){
+        margin-top: 50px;
+    }
+}
